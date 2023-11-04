@@ -1,0 +1,96 @@
+.book-profile-wraper p{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.book-profile-wraper .row{
+    margin: 0;
+}
+.book-profile-wraper .left-side{
+    padding: 20px;
+    text-align: center;
+}
+.book-profile-wraper .left-side .profile-pic{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    padding: 3px;
+    background-color: #794EDA;
+    margin: auto;
+}
+.book-profile-wraper .left-side .profile-name .pro-name{
+    font-size: 25px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+.book-profile-wraper .left-side .profile-name .pro-name::after{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f058";
+    font-size: 17px;
+    margin-left: 5px;
+    color: blue;
+}
+.book-profile-wraper .left-side .profile-name .pro-follow{
+    font-weight: 500;
+    color: blue;
+    cursor: pointer;
+}
+.book-profile-wraper .left-side .profile-pic img{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.book-profile-wraper .left-side .profile-des{
+    text-align: justify;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+    margin-bottom: 15px;
+}
+.book-profile-wraper .left-side .pro-infos{
+    margin-top: 50px;
+    text-align: left;
+}
+.book-profile-wraper .left-side .pro-infos p{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.book-profile-wraper .left-side .pro-infos b{
+    font-size: 16px;
+}
+.book-profile-wraper .left-side .pro-socials a{
+    margin-right: 10px;
+}
+.book-profile-wraper .left-side .pro-socials a i{
+    color: #595652;
+    font-size: 20px;
+}
+/* right side */
+.book-profile-wraper .right-side{
+    padding: 20px;
+}
+.book-profile-wraper .right-side .title{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.showcase .book-cover{
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.showcase .version{
+    font-weight: 500;
+}
+.showcase .price{
+    font-weight: 500;
+    color: #ff3131;
+}
+.showcase .book-inner{
+    max-width: 250px;
+}
+
+
